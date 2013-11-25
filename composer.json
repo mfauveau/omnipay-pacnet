@@ -1,5 +1,5 @@
 {
-    "name": "omnipay/pacnet",
+    "name": "mfauveau/omnipay-pacnet",
     "type": "library",
     "description": "Pacnet (Raven) driver for the Omnipay PHP payment processing library",
     "keywords": [
@@ -17,7 +17,7 @@
     "authors": [
         {
             "name": "Matthieu Fauveau",
-            "email": "mfauveau2gmail.com"
+            "email": "mfauveau@gmail.com"
         }
     ],
     "autoload": {
