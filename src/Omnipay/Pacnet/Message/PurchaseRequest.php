@@ -13,6 +13,8 @@ class PurchaseRequest extends AuthorizeRequest
 
         $data['PymtType'] = 'cc_debit';
 
+        $data['Signature'] = $this->generateSignature($data);
+
         return $data;
     }
 }
