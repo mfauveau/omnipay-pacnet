@@ -1,13 +1,13 @@
 # Omnipay: Pacnet
 
-**Pacnet driver for the Omnipay PHP payment processing library**
+**Pacnet Services Ltd driver for the Omnipay PHP payment processing library**
 
 [![Build Status](https://travis-ci.org/mfauveau/omnipay-pacnet.png?branch=master)](https://travis-ci.org/mfauveau/omnipay-pacnet)
 [![Latest Stable Version](https://poser.pugx.org/mfauveau/omnipay-pacnet/version.png)](https://packagist.org/packages/mfauveau/omnipay-pacnet)
 [![Total Downloads](https://poser.pugx.org/mfauveau/omnipay-pacnet/d/total.png)](https://packagist.org/packages/mfauveau/omnipay-pacnet)
 
 [Omnipay](https://github.com/omnipay/omnipay) is a framework agnostic, multi-gateway payment
-processing library for PHP 5.3+. This package implements Stripe support for Omnipay.
+processing library for PHP 5.3+. This package implements [Pacnet Services Ltd](http://www.pacnetservices.com/index.php/) support for Omnipay.
 
 ## Installation
 
