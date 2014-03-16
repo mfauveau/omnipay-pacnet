@@ -12,7 +12,7 @@
         "pacnet",
         "raven"
     ],
-    "homepage": "https://github.com/mfauveau/pacnet",
+    "homepage": "https://github.com/mfauveau/omnipay-pacnet",
     "license": "MIT",
     "authors": [
         {
