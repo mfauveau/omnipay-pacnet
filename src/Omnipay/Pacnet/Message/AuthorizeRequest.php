@@ -27,8 +27,7 @@ class AuthorizeRequest extends SubmitRequest
             if ($this->getCard()->getName()) {
                 $data['AccountName'] = $this->getCard()->getName();
             }
-        }
-        else {
+        } else {
             $data['TemplateNumber'] = $this->getTransactionReference();
         }
 
