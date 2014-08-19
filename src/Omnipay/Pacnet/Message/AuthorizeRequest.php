@@ -13,7 +13,7 @@ class AuthorizeRequest extends SubmitRequest
 
         $data['PymtType'] = 'cc_preauth';
 
-        if (null !== $this->getTransactionReference()) {
+        if (is_null($this->getTransactionReference())) {
             $this->validate('card');
 
             $data['CardBrand'] = $this->getCard()->getBrand();
