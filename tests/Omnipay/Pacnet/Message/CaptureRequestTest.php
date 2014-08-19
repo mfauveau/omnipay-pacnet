@@ -13,7 +13,7 @@ class CaptureRequestTest extends TestCase
             array(
                 'username'              => 'ernest',
                 'sharedSecret'          => 'all good men die young',
-                'paymentRoutingNumber'  => '840033',
+                'paymentRoutingNumber'  => '987743',
                 'amount'                => '10.00',
                 'currency'              => 'USD',
                 'transactionReference'  => '10000165919'

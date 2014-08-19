@@ -13,7 +13,7 @@ class VoidRequestTest extends TestCase
             array(
                 'username'              => 'ernest',
                 'sharedSecret'          => 'all good men die young',
-                'paymentRoutingNumber'  => '840033',
+                'paymentRoutingNumber'  => '987743',
                 'transactionReference'  => '10000165919'
             )
         );
