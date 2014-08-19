@@ -8,7 +8,7 @@ namespace Omnipay\Pacnet\Message;
 abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
 {
     protected $liveEndPoint = 'https://raven.pacnetservices.com/realtime/';
-    protected $testEndPoint = 'https://demo.pacnetservices.com/realtime/';
+    protected $testEndPoint = 'https://raven.pacnetservices.com/realtime/';
 
     public function getUsername()
     {
