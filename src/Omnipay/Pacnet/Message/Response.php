@@ -39,12 +39,9 @@ class Response extends AbstractResponse
 
     public function getTransactionReference()
     {
-        if (isset($this->data['TemplateNumber'])) {
-            return $this->data['TemplateNumber'];
-        } elseif (isset($this->data['TrackingNumber']) && $this->data['TrackingNumber'] != '') {
-            return $this->data['TrackingNumber'];
-        } else {
-            return null;
-        }
+        return (
+            isset($this->data['TrackingNumber']) &&
+            $this->data['TrackingNumber'] !== ''
+        ) ? $this->data['TrackingNumber'] : null;
     }
 }

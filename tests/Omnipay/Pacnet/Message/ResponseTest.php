@@ -67,7 +67,7 @@ class ResponseTest extends TestCase
 
         $this->assertTrue($response->isSuccessful());
         $this->assertFalse($response->isRedirect());
-        $this->assertEquals('10000165604', $response->getTransactionReference());
+        $this->assertEquals('10000165737', $response->getTransactionReference());
         $this->assertNull($response->getMessage());
         $this->assertNull($response->getCode());
     }
@@ -79,7 +79,7 @@ class ResponseTest extends TestCase
 
         $this->assertFalse($response->isSuccessful());
         $this->assertFalse($response->isRedirect());
-        $this->assertEquals('10000165604', $response->getTransactionReference());
+        $this->assertEquals('10000165737', $response->getTransactionReference());
         $this->assertEquals('Invalid because the original payment is not a settled debit.', $response->getMessage());
         $this->assertEquals('invalid:OriginalPaymentNotSettled', $response->getCode());
     }
