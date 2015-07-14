@@ -18,8 +18,8 @@ class Response extends AbstractResponse
 
     public function isSuccessful()
     {
-        if (isset($this->data['Status']) && $this->data['Status'] === 'Voided') {
-            return $this->data['ErrorCode'] === '';
+        if (isset($this->data['ErrorCode']) && $this->data['ErrorCode'] === 'error:canNotBeVoided') {
+            return false;
         } else {
             return isset($this->data['Status']) && in_array($this->data['Status'], array(
                 'Approved',
